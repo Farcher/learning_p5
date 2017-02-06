@@ -2,7 +2,7 @@ var straightLine = [];
 
 function setup() {
   createCanvas(600, 400);
-  for (var i = 0; i < 5; i++) {
+  for (var i = 0; i < 300; i++) {
     straightLine[i] = new StraightLine();
   }
 }
