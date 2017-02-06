@@ -2,7 +2,7 @@ var bubbles = [];
 
 function setup() {
   createCanvas(400, 400);
-  for (var i = 0; i < 5; i++) {
+  for (var i = 0; i < 30; i++) {
     bubbles[i] = new Bubble();
   }
 }
