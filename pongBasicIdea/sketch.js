@@ -53,7 +53,6 @@ function Player() {
     rect(this.x, mouseY, this.a, this.b);
   }
   this.check = function() {
-    print(ball.y);
     if (ball.x >= this.x - (this.a / 2) && ball.x <= this.x + (this.a / 2) && ball.y >= mouseY - (this.b / 2) && ball.y <= mouseY + (this.b / 2)) {
       ball.xSpeed *= -1;
     }
